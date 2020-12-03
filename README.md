@@ -7,8 +7,8 @@ Nonstop 是一个 chrome 扩展，用于无感跳转到知乎，微博，简书�
 
 ## 测试
 安装扩展后，点击下方三个链接，均可自动跳转：
-* 知乎外链：[https://link.zhihu.com/?target=https%3A//yuxiaoy1.github.io/](https://link.zhihu.com/?target=https%3A//yuxiaoy1.github.io/)
-* 简书外链：[https://www.jianshu.com/go-wild?ac=2&url=https%3A%2F%2Fyuxiaoy1.github.io%2F](https://www.jianshu.com/go-wild?ac=2&url=https%3A%2F%2Fyuxiaoy1.github.io%2F)
+* 知乎外链：[https://link.zhihu.com/?target=https%3A//yuxiaoy.com/](https://link.zhihu.com/?target=https%3A//yuxiaoy.com/)
+* 简书外链：[https://www.jianshu.com/go-wild?ac=2&url=https%3A%2F%2Fyuxiaoy.com%2F](https://www.jianshu.com/go-wild?ac=2&url=https%3A%2F%2Fyuxiaoy.com%2F)
 * 微博外链：[http://t.cn/A6b1HjVM?u=1802713725&m=4563585797724502&cu=1802713725](http://t.cn/A6b1HjVM?u=1802713725&m=4563585797724502&cu=1802713725)
 
 ## 免责声明
