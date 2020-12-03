@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
     "name": "Nonstop",
-    "version": "0.1.1",
-    "description": "无感直达知乎，微博，简书等无法直接跳转的外链，免去手动跳转的烦恼。",
+    "version": "0.2.0",
+    "description": "无感直达知乎，微博，简书等无法直接跳转的外链，免去手动跳转的烦恼；同时支持拦截知乎登录弹窗。",
     "author": "yuxiaoy",
     "icons": {
         "48": "icon.png",
@@ -13,7 +13,11 @@
         "default_icon": "icon.png"
     },
     "content_scripts": [{
-        "matches": ["https://link.zhihu.com/?target=*", "http://t.cn/*", "https://www.jianshu.com/go-wild?ac=2&url=*"],
+        "matches": ["*://link.zhihu.com/?target=*",
+            "*://t.cn/*",
+            "*://www.jianshu.com/go-wild?ac=2&url=*",
+            "*://www.zhihu.com/question/*"
+        ],
         "js": ["content-script.js"]
     }]
 }
