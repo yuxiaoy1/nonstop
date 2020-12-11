@@ -5,28 +5,17 @@
         // close zhihu login page when not logged
         window.onload = () => {
             let btn = document.querySelector('.Button.Modal-closeButton.Button--plain')
-            if (btn) {
-                btn.click()
-            }
+            if (btn) btn.click()
             return
         }
     }
-    // redirect for zhihu, weibo sites
-    let link = document.querySelector('.link')
+    // redirect for zhihu, weibo, qqmail sites
+    let link = document.querySelector('.link') || document.querySelector('.safety-url')
     let url = link ? link.textContent : ''
     if (url) {
         window.location.href = url
         return
     }
-
-    // redirect for qqmail
-    link = document.querySelector('.safety-url')
-    url = link ? link.textContent : ''
-    if (url) {
-        window.location.href = url
-        return
-    }
-
     // redirect for jianshu site
     let getParams = field => {
         let urlObject = new URL(href)
@@ -34,7 +23,5 @@
         return res
     }
     url = getParams('url')
-    if (url) {
-        window.location.href = url
-    }
-})();
+    if (url) window.location.href = url
+})()
