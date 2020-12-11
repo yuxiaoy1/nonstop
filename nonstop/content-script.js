@@ -18,6 +18,15 @@
         window.location.href = url
         return
     }
+
+    // redirect for qqmail
+    link = document.querySelector('.safety-url')
+    url = link ? link.textContent : ''
+    if (url) {
+        window.location.href = url
+        return
+    }
+
     // redirect for jianshu site
     let getParams = field => {
         let urlObject = new URL(href)

@@ -10,6 +10,7 @@ Nonstop 是一个 chrome 扩展，用于无感跳转到知乎，微博，简书�
 * 知乎外链：[https://link.zhihu.com/?target=https%3A//yuxiaoy.com/](https://link.zhihu.com/?target=https%3A//yuxiaoy.com/)
 * 简书外链：[https://www.jianshu.com/go-wild?ac=2&url=https%3A%2F%2Fyuxiaoy.com%2F](https://www.jianshu.com/go-wild?ac=2&url=https%3A%2F%2Fyuxiaoy.com%2F)
 * 微博外链：[http://t.cn/A6Gsm8pD](http://t.cn/A6Gsm8pD)
+* QQ邮箱外链：[https://mail.qq.com/cgi-bin/readtemplate?t=safety&check=false&gourl=https%3A%2F%2Ffrontendfoc.us%2Flink%2F85068%2Ff3b21d9455&subtemplate=gray&evil=0](https://mail.qq.com/cgi-bin/readtemplate?t=safety&check=false&gourl=https%3A%2F%2Ffrontendfoc.us%2Flink%2F85068%2Ff3b21d9455&subtemplate=gray&evil=0)
 
 ## 免责声明
 本扩展开发仅用于学习，严禁任何商业用途。
