@@ -10,7 +10,7 @@
         }
     }
     // redirect for zhihu, weibo, qqmail sites
-    let link = document.querySelector('.link') || document.querySelector('.safety-url')
+    let link = document.querySelector('.desc') || document.querySelector('.link') || document.querySelector('.safety-url')
     let url = link ? link.textContent : ''
     if (url) {
         window.location.href = url

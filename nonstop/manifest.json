@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Nonstop",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "description": "无感直达知乎，微博，简书，QQ邮箱等无法直接跳转的外链，免去手动跳转的烦恼；同时支持拦截知乎登录弹窗。",
     "author": "yuxiaoy",
     "icons": {
