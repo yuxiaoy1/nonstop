@@ -7,7 +7,7 @@ Nonstop 是一个 chrome 扩展，用于无感跳转到知乎，微博，掘金�
 ![加载已解压的扩展程序](https://user-images.githubusercontent.com/24974936/101910150-83427c00-3bf9-11eb-82be-0f8ddd42731b.png)
 
 ## 应用效果
-安装扩展后，点击下方四个链接，均可自动跳转：
+安装扩展后，点击下方链接，均可实现自动跳转：
 * 知乎外链：<https://link.zhihu.com/?target=https%3A//yuxiaoy.com/>
 * 简书外链：<https://www.jianshu.com/go-wild?ac=2&url=https%3A%2F%2Fyuxiaoy.com%2F>
 * 微博外链：<http://t.cn/A6Gsm8pD>
