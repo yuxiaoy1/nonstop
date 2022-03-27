@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Nonstop",
-    "version": "0.2.2",
+    "version": "0.3.0",
     "description": "无感直达知乎，微博，简书，QQ邮箱等无法直接跳转的外链，免去手动跳转的烦恼；同时支持拦截知乎登录弹窗。",
     "author": "yuxiaoy",
     "icons": {
@@ -12,13 +12,26 @@
     "browser_action": {
         "default_icon": "icon.png"
     },
-    "content_scripts": [{
-        "matches": ["*://link.zhihu.com/?target=*",
-            "*://t.cn/*",
-            "*://www.jianshu.com/go-wild?ac=2&url=*",
-            "*://www.zhihu.com/question/*",
-            "*://mail.qq.com/cgi-bin/readtemplate?t=safety*"
-        ],
-        "js": ["content-script.js"]
-    }]
+    "content_scripts": [
+        {
+            "matches": [
+                "*://link.zhihu.com/?target=*",
+                "*://link.juejin.cn/?target=*",
+                "*://link.csdn.net/?target=*",
+                "*://www.tianyancha.com/security?target=*",
+                "*://www.jianshu.com/go-wild?ac=2&url=*",
+                "*://steamcommunity.com/linkfilter/?url=*",
+                "*://game.bilibili.com/linkfilter/?url=*",
+                "*://www.chinaz.com/go.shtml?url=*",
+                "*://www.douban.com/link2/?url=*",
+                "*://www.youtube.com/redirect?q=*",
+                "*://t.cn/*",
+                "*://mail.qq.com/cgi-bin/readtemplate?t=safety*",
+                "*://www.zhihu.com/question/*"
+            ],
+            "js": [
+                "content-script.js"
+            ]
+        }
+    ]
 }
